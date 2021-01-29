@@ -463,7 +463,8 @@ A simple example of a Merkle Proof Signature Suite 2019 signature (proofValue en
       "proof": {
         "@context": ["https://w3id.org/security/v2"],
         "type": "MerkleProof2019",
-        "creator": "did:example:abcdefghij0123456789",
+        "verificationMethod": "did:example:abcdefghij0123456789#key1",
+        "proofPurpose": "assertionMethod",
         "created": "2019-10-16T20:21:34Z",
         "domain": "example.org",
         "nonce": "2bbgh3dgjg2302d-d2b3gi423d42",
